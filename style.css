@@ -6,5 +6,12 @@ body {
 }
 
 img {
+    display: flexbox;
+    /* justify-content: center; */
     max-height: 50%;
+}
+
+.message {
+    box-sizing: content-box;
+    text-align: left; 
 }
