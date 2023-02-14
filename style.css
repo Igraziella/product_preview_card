@@ -9,24 +9,18 @@ body {
     padding: 60px;
 }
 
-img {
-    display: flexbox;
+.container, img, .message {
+    border-radius: 10px 0px 10px 0px;
     max-height: 50%;
 }
-/* 
-.container {
-    width: 40px;
-    height: 300px;
-    background-image: url(images/image-product-desktop.jpg), (border-box);
-    background-position: left top, right bottom;
-    background-size: 50%, 50%;
-    border-radius: 9px;
-    } */
+
+img {
+    display: flexbox;
+}
 
 .message {
     box-sizing: content-box;
-    max-width: 22%;
-    max-height: 50%;
+    max-width: 24%;
     background-color: hsl(0, 0%, 100%);
     display: inline-block;
     padding-left: 2em;
@@ -64,7 +58,7 @@ p {
 
 h2 {
     box-sizing: content-box;
-    width: 15vw;
+    width: 17vw;
     height: 5vh;
     border-radius: 9px;
     background-color: hsl(158, 36%, 37%);
@@ -72,5 +66,5 @@ h2 {
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
