@@ -10,17 +10,19 @@ body {
 }
 
 .container, img, .message {
-    border-radius: 10px 0px 10px 0px;
     max-height: 50%;
+    overflow: hidden;
 }
 
 img {
     display: flexbox;
+    border-radius: 10px 0 0 10px;
 }
 
 .message {
     box-sizing: content-box;
     max-width: 24%;
+    border-radius: 0 10px 10px 0;
     background-color: hsl(0, 0%, 100%);
     padding-left: 2em;
 }
