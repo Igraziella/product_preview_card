@@ -9,19 +9,20 @@ body {
     padding: 60px;
 }
 
-.container, img, .message {
+.container, img .message {
     max-height: 50%;
     overflow: hidden;
 }
 
 img {
     display: flexbox;
+    max-width: 25%;
     border-radius: 10px 0 0 10px;
 }
 
 .message {
     box-sizing: content-box;
-    max-width: 24%;
+    max-width: 23%;
     border-radius: 0 10px 10px 0;
     background-color: hsl(0, 0%, 100%);
     padding-left: 2em;
@@ -44,7 +45,7 @@ p {
     font-family: Fraunces;
     font-size: 25px;
     font-weight: 700;
-    text-decoration: hsl(158, 88%, 10%);
+    text-decoration-color: hsl(158, 88%, 10%);
     padding-bottom: 15px;
     padding-top: 15px;
 }
