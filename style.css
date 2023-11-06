@@ -4,25 +4,23 @@ html,
 
 body {
     background-color: hsl(30, 38%, 92%);
+    padding: 80px;
+}
+
+.container {
     display: flex;
-    justify-content: center;
-    padding: 60px;
-}
-
-.container, img .message {
-    max-height: 50%;
     overflow: hidden;
+    border-radius: 10px 0 0 10px;
 }
 
-img {
-    display: flexbox;
-    max-width: 25%;
-    border-radius: 10px 0 0 10px;
+.image {
+    width: 50%;
+    height: 10rem;
 }
 
 .message {
     box-sizing: content-box;
-    max-width: 23%;
+    width: 50%;
     border-radius: 0 10px 10px 0;
     background-color: hsl(0, 0%, 100%);
     padding-left: 2em;
@@ -40,7 +38,7 @@ p {
     font-weight: 400;
 }
 
-.flex {
+.figures {
     display: flex;
     font-family: Fraunces;
     font-size: 25px;
@@ -69,4 +67,19 @@ h2 {
     font-weight: 700;
     text-align: center;
     padding-top: 15px;
+}
+
+    /* For mobile phones */
+    @media only screen and (max-width: 600px) {
+        /*.container {
+        width: 100%;
+    }*/
+}
+
+@media only screen and (min-width: 992px) {
+    /*.container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    } */
 }
