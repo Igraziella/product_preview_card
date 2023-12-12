@@ -1,82 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@400;700&family=Outfit:wght@400;700&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html,
 
 body {
     background-color: hsl(30, 38%, 92%);
-    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
     display: flex;
-    overflow: hidden;
-    border-radius: 10px 0 0 10px;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    min-width: 300px;
 }
 
-.image {
-    width: 50%;
-    height: 10rem;
+.container img {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .message {
-    box-sizing: content-box;
-    width: 50%;
     border-radius: 0 10px 10px 0;
     background-color: hsl(0, 0%, 100%);
-    padding-left: 2em;
+    padding: 2rem;
+    width: 100%;
+    min-width: 250px;
 }
 
-h1 {
-    font-family: Fraunces;
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    padding-top: 20px;
+    font-size: 13px;
+    color: hsl(204, 3%, 61%);
+    margin-bottom: 1.5rem;
+}
+
+h1, .figures {
+    font-family: "Fraunces", sans-serif;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    line-height: 2rem;
 }
 
 p {
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    font-family: Montserrat;
-    font-weight: 400;
+    line-height: 1.8em;
+    font-weight: 700;
+    color: hsl(204, 3%, 61%);
+    margin-top: 1.5rem;
 }
 
 .figures {
     display: flex;
-    font-family: Fraunces;
     font-size: 25px;
+    color: hsl(212, 21%, 14%);
+    margin-top: 1.5rem;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
     font-weight: 700;
-    text-decoration-color: hsl(158, 88%, 10%);
-    padding-bottom: 15px;
-    padding-top: 15px;
 }
 
 .figure {
     padding-left: 2em;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-decoration: line-through;
 }
 
-h2 {
-    box-sizing: content-box;
-    width: 17vw;
-    height: 5vh;
+button {
+    width: 100%;
+    height: 3rem;
     border-radius: 9px;
     background-color: hsl(158, 36%, 37%);
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 700;
+    color: hsl(0, 0%, 100%);
     text-align: center;
-    padding-top: 15px;
+    margin-top: 1.2rem;
+    border: none;
 }
 
     /* For mobile phones */
-    @media only screen and (max-width: 600px) {
-        /*.container {
-        width: 100%;
-    }*/
+    @media only screen and (max-width: 375px) {
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            min-width: 300px;
+        }
+        .container img {
+            border-radius: 10px 10px 0 0;
+        }
+        .message {
+            border-radius: 0 0 10px 10px;
+        }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 1440px) {
     /*.container {
         display: flex;
         flex-direction: row;
