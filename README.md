@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,12 +29,10 @@ Users should be able to:
 ![](./product-preview-card.png)
 
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://product-preview-card-lilac-ten.vercel.app/)
 
 ## My process
 
@@ -86,6 +82,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Ijeoma's Portfolio](https://my-portfolio-project-alpha.vercel.app/)
+- Frontend Mentor - [Igraziella](https://www.frontendmentor.io/profile/igraziella)
+- Twitter - [ObialorGraziel2](https://www.twitter.com/ObialorGraziel2)
+- LinkedIn- [Obialor Ijeoma](https://www.linkedin.com/in/ijeoma-obialor-012494114)
